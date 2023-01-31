@@ -1,0 +1,97 @@
+.sidebars
+{
+    background-color:hsl(40, 100%, 85%); 
+}
+body
+{
+    background-color: hsl(40, 85%, 45%);
+    width: 90%;
+    margin-left: 5%;
+}
+
+h1, h2
+{  
+    text-align: center;  
+}
+.container, .performance
+{
+    display: grid;
+    grid-template:
+    "a b b b"
+    "c c d d"
+}
+.text
+{
+    grid-area: b;
+    font-size: 2vw;
+    /*font-size: 20px;*/
+    padding-left: 20px;
+}
+p
+{
+    text-align: center;
+    font-size: 2vw;
+    /*font-size: 16px;*/
+}
+hr
+{
+    background-color: hsl(0, 92%, 50%)
+}
+.winner
+{
+    color: hsl(40, 100%, 35%)
+}
+.nominee
+{
+    color: hsl(0, 0%, 50%)
+}
+img 
+{
+    grid-area: a;
+    width: 100%;
+}
+.movies
+{
+    grid-area: c;
+    font-size: 2vw;
+    /*font-size: 16px;*/
+}
+.awards
+{
+    grid-area: d;
+    font-size: 2vw;
+    /*font-size: 16px;*/
+}
+.contact
+{
+    font-size: 2vw;
+    /*font-size: 16px;*/
+}
+#li
+{
+    font-size: 30px;
+}
+@media (max-width: 800px)
+{
+body
+{
+    background-color: hsl(40, 100%, 85%);
+}
+}
+@media (max-width: 600px)
+{
+.container
+{
+    display: grid;
+    grid-template:
+    "a"
+    "b"
+}
+.performance
+{
+    display: grid;
+    grid-template:
+    "c"
+    "d"
+}
+}
