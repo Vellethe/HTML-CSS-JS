@@ -23,15 +23,15 @@ h1, h2
 .text
 {
     grid-area: b;
-    font-size: 2vw;
-    /*font-size: 20px;*/
+    /* font-size: 2vw; */
+    font-size: 20px;
     padding-left: 20px;
 }
 p
 {
     text-align: center;
-    font-size: 2vw;
-    /*font-size: 16px;*/
+    /* font-size: 2vw; */
+    font-size: 16px;
 }
 hr
 {
@@ -53,19 +53,19 @@ img
 .movies
 {
     grid-area: c;
-    font-size: 2vw;
-    /*font-size: 16px;*/
+    /* font-size: 2vw; */
+    font-size: 16px;
 }
 .awards
 {
     grid-area: d;
-    font-size: 2vw;
-    /*font-size: 16px;*/
+    /* font-size: 2vw; */
+    font-size: 16px;
 }
 .contact
 {
-    font-size: 2vw;
-    /*font-size: 16px;*/
+    /* font-size: 2vw; */
+    font-size: 16px;
 }
 #li
 {
